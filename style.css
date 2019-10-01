@@ -1,0 +1,177 @@
+
+
+
+#container {
+    width: 55%;
+    margin: auto;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+header{
+    padding: 10px 0px 75px 0px;
+}
+
+#nav {
+    display: inline;
+}
+
+
+h1 {
+    display: inline;
+    padding-right: 60%;
+    color: #8f0000;
+    padding-left: 1em;
+}
+
+ul li {
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding-right: 0.5em;
+}
+
+a:hover{
+    color: red;
+}
+
+#section_1{
+    text-align: center;
+    padding-bottom: 15em;
+}
+
+#section_1 article{
+    text-align: left;
+    width: 40em;
+    padding-top: 10em;
+    display: inline-block;
+    
+}
+
+h2{
+    font-size: 5em;
+}
+
+button{
+    background-color: #8f0000;
+    padding: 0.5em;
+    border-radius: 20px;
+    color: white;
+}
+
+figure{
+    display: inline;
+    float: right;
+}
+
+#section_2{
+    padding: 5em 0em 5em 0em;
+    background-color: white;
+}
+
+#section_2 article{
+    width: 30em;
+    margin: auto;
+}
+
+footer{
+    text-align: left;
+}
+
+form {
+
+    text-align: left;
+    display: inline-block;
+}
+
+.form{
+    margin-left: 100px
+}
+
+h4{
+    padding-left: 2em;
+    font-size: 1.5em
+}
+
+input{
+    margin-bottom: 1.5em;
+}
+
+.input{
+    padding-right: 16.7em;
+}
+
+label {
+    display: block;
+}
+
+#btn_input{
+    display: block;
+    background-color: grey;
+    padding: .8em .8em .8em .8em;
+    margin-top: 1em;
+}
+
+.name{
+    display: inline-block;
+}
+
+
+#contact{
+    width:20em;
+    display: inline-block;
+    padding: 0em 0em 0em 30em;
+    text-align: left;
+}
+
+#copyright{
+    padding: 2em 0em 2em 0em;
+    background-color: #8f0000;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px){
+figure img{
+    width: 200px;
+    height: 200px;
+}
+#container{
+    width: 380px;
+}
+
+#section_1 article{
+   padding: 0px;
+   width: 300px;
+   text-align: center;
+}
+
+#section_2 article{
+    padding: 0px;
+    width: 300px;
+    text-align: center;
+}
+
+form #input{
+    padding-right: 2em;
+}
+
+footer{
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+a{
+    display: none;
+}
+
+
+@media screen and (max-width: 845px){
+figure{
+    width: 200px;
+    height: 200px;
+}
+}
